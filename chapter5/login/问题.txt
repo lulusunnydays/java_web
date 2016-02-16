@@ -1,0 +1,6 @@
+java.lang.ClassNotFoundException: org.git.mm.jdbc.Driver
+
+在Tomcat目录下的lib目录下加入mysql-connector-java-5.0.8-bin.jar包
+
+mysql数据库中文乱码
+在创建数据库表的语句后加 DEFAULT CHARSET=utf8
